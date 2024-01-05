@@ -1,8 +1,7 @@
 /** String processing exercise 1. */
 public class LowerCase {
     public static void main(String[] args) {  
-        //String str = args[0];
-        String str = "TLV to LA: 15 Hours.";
+        String str = args[0];
         System.out.println(lowerCase(str));
     }
 

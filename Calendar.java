@@ -22,8 +22,9 @@ public class Calendar {
 	    //// Write the necessary initialization code, and replace the condition
 	    //// of the while loop with the necessary condition 
 	 	//int sundayOnFirstOfMonth = 0;
-		int spcipicYear = Integer.parseInt(args[0]);
-        while (year < spcipicYear) {
+		//int inputYear = Integer.parseInt(args[0]);
+		int inputYear = 2021;
+        while (year != (inputYear)) {
 	 		//// Write the body of the while 		
 			advance();
 	 		//debugDaysCounter++;
@@ -33,7 +34,7 @@ public class Calendar {
 	 		//	break;
 	 		//}
         }
-        while (year == (spcipicYear + 1) ) {
+        while (year != (inputYear + 1) ) {
             System.out.print(dayOfMonth + "/" + month + "/" + year);
 			if (dayOfWeek == 1) {
 				System.out.print(" Sunday");
