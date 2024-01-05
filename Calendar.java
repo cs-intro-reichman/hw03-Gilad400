@@ -22,8 +22,7 @@ public class Calendar {
 	    //// Write the necessary initialization code, and replace the condition
 	    //// of the while loop with the necessary condition 
 	 	//int sundayOnFirstOfMonth = 0;
-		//int inputYear = Integer.parseInt(args[0]);
-		int inputYear = 2021;
+		int inputYear = Integer.parseInt(args[0]);
         while (year != (inputYear)) {
 	 		//// Write the body of the while 		
 			advance();
